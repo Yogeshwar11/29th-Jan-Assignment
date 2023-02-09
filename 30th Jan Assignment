@@ -1,0 +1,62 @@
+Q.1
+a=int(input("Enter Percentage"))
+if a >90:
+    print("A")
+elif a>80 and a<=90:
+    print('B')
+elif a<=80 and a>=60:
+    print('C')
+elif a>0 and a<60:
+    print("D")
+else:
+    print("Please enter valid data")
+    
+    
+    
+Q.2
+cost_price=int(input("Enter Cost Price of Bike"))
+if cost_price>100000:
+    tax=cost_price*15/100
+    print("Tax=",tax)
+elif cost_price<=100000 and cost_price>50000:
+    tax=cost_price*10/100
+    print("Tax=",tax)
+elif cost_price>0 and cost_price<=50000:
+    tax=cost_price*5/100
+    print("Tax=",tax)
+else:
+    print("Enter positive price")
+
+
+Q.3
+city=str(input("Enter City from: Delhi, Agra and Jaipur"))
+if city=="Delhi" or city=="delhi":
+    print("Red Fort")
+elif city=="Agra" or city=="agra":
+    print("Taj Mahal")
+elif city=="Jaipur" or city=="jaipur":
+    print("Jal Mahal")
+else:
+    print("Enter city from: Delhi, Agra and Jaipur")
+
+
+Q.4
+n=int(input("Enter a number"))
+count=0
+for i in range(n):
+    if n>=10 and n%3==0:
+        count+=1
+        n/=3
+print(count)
+
+Q.5
+while loop is used to run a block code until a certain condition is met
+Example:
+i = 1
+n = 5
+while i <= n:
+    print(i)
+    i = i + 1
+
+
+Q.6
